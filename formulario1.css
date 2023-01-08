@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor:rgb(250, 217, 222);
+    --cor1:lightpink;
+    --cor2:green;
+    --cor3:darkgreen;
+}
+
+body {
+    font-family: 'Prosto One', cursive;
+    padding: 0px;
+    margin: 0px auto;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+form {
+    background-image: linear-gradient( to bottom, rgb(74, 181, 243), rgb(150, 135, 235));
+
+    padding: 40px 80px;
+    margin: 7% auto;
+
+    width: 25%;
+    height: 450px;
+
+    min-width: 350px;
+    min-height: 225px;
+
+    border-radius: 5px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+
+    box-shadow: 4px 2px 3px rgba(63, 62, 62, 0.342);
+}
+
+.conteiner-do-formulario h1 {
+    padding: 25px 20px 35px 20px;
+    text-align: center;
+    text-shadow: 1px 2px 2ex rgba(0, 0, 0, 0.473);
+} 
+
+.conteiner-do-formulario  label  {
+    display: inline;
+    text-shadow: 1px 2px 2ex rgba(0, 0, 0, 0.473);
+}
+
+.conteiner-do-formulario  input  {
+    background-image: linear-gradient(to top, rgb(236, 223, 250), rgb(246, 240, 253), rgb(249, 245, 253), transparent);
+    
+    padding: 2px;
+    display: inline-block;
+    border: transparent;
+    border-radius: 1px;
+
+    justify-content: center;
+    text-shadow: 1px 2px 2ex rgba(0, 0, 0, 0.473);
+}
+
+.nome, .senha, .email  {
+    padding: 12px;
+}
+
+button {
+    background-image: linear-gradient(to top, rgb(220, 182, 255), rgb(225, 193, 255), rgb(229, 203, 255), transparent);
+    
+    margin: 20% 37%;
+    padding: 5px 10px;
+
+    border: transparent 5px;
+    border-radius: 12px;
+
+    font-weight: bold;
+    color: rgb(146, 88, 146);
+}
+button:hover {
+    background-image: linear-gradient(to top, rgb(229, 220, 238), rgb(220, 209, 231), rgb(213, 198, 228), transparent);
+    color: blueviolet;
+}
