@@ -82,6 +82,8 @@ button {
     color: rgb(146, 88, 146);
 }
 button:hover {
-    background-image: linear-gradient(to top, rgb(229, 220, 238), rgb(220, 209, 231), rgb(213, 198, 228), transparent);
-    color: blueviolet;
+    background-image: linear-gradient(to bottom, rgb(106, 213, 240), rgb(100, 212, 247), rgb(115, 212, 250), rgb(202, 228, 250));
+    padding: 5px 12px;
+    color: aliceblue;
+    transition: all .3s;
 }
