@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    font-size: large;
 }
 
 :root {
@@ -12,7 +14,6 @@
 }
 
 body {
-    font-family: 'Prosto One', cursive;
     padding: 0px;
     margin: 0px auto;
 
@@ -24,7 +25,7 @@ body {
 form {
     background-image: linear-gradient( to bottom, rgb(74, 181, 243), rgb(150, 135, 235));
 
-    padding: 40px 80px;
+    padding: 40px 65px;
     margin: 7% auto;
 
     width: 25%;
@@ -72,21 +73,23 @@ form {
 button {
     background-image: linear-gradient(to top,  rgb(168, 227, 250),  rgb(159, 230, 252),  rgb(155, 231, 250), transparent);
     
-    margin: 20% 35%;
+    margin: 15% 35%;
     padding: 5px 10px;
 
-    width: 55px;
-    height: 25px;
+    width: 75px;
+    height: 30px;
    
     border: transparent 5px;
     border-radius: 12px;
 
     font-weight: bold;
-    color: rgb(146, 88, 146);
+    color: rgba(76, 36, 141, 0.692);
     transition: width .5s;
+    transition:.5s;
 }
 button:hover {
     background-image: linear-gradient(to bottom, rgb(106, 213, 240), rgb(100, 212, 247), rgb(115, 212, 250), rgb(202, 228, 250));
-    width: 65px;
-    color: aliceblue;
+    width: 80px;
+    color: rgba(35, 143, 102, 0.685);
+    transition:.5s;
 }
