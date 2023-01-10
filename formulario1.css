@@ -70,20 +70,23 @@ form {
 }
 
 button {
-    background-image: linear-gradient(to top, rgb(220, 182, 255), rgb(225, 193, 255), rgb(229, 203, 255), transparent);
+    background-image: linear-gradient(to top,  rgb(168, 227, 250),  rgb(159, 230, 252),  rgb(155, 231, 250), transparent);
     
-    margin: 20% 37%;
+    margin: 20% 35%;
     padding: 5px 10px;
 
+    width: 55px;
+    height: 25px;
+   
     border: transparent 5px;
     border-radius: 12px;
 
     font-weight: bold;
     color: rgb(146, 88, 146);
+    transition: width .5s;
 }
 button:hover {
     background-image: linear-gradient(to bottom, rgb(106, 213, 240), rgb(100, 212, 247), rgb(115, 212, 250), rgb(202, 228, 250));
-    padding: 5px 12px;
+    width: 65px;
     color: aliceblue;
-    transition: all .3s;
 }
