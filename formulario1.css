@@ -43,9 +43,12 @@ form {
     box-shadow: 4px 2px 3px rgba(63, 62, 62, 0.342);
 }
 
+form .conteiner-do-formulario > h1 {
+    font-size: 250%
+}
+
 .conteiner-do-formulario h1 {
-    padding: 25px 20px 35px 20px;
-    font-size: 500px;
+    padding: 15px 20px 35px 20px;
     text-align: center;
     text-shadow: 1px 2px 2ex rgba(0, 0, 0, 0.473);
 } 
@@ -74,8 +77,8 @@ form {
 button {
     background-image: linear-gradient(to top,  rgb(168, 227, 250),  rgb(159, 230, 252),  rgb(155, 231, 250), transparent);
     
-    margin: 15% 35%;
-    padding: 5px 10px;
+    margin: 11% 35%;
+    padding: 3px 10px;
 
     width: 75px;
     height: 30px;
